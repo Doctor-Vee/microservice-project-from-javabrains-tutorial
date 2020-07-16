@@ -18,7 +18,7 @@ public class MovieResource {
 
     @RequestMapping("/{movieId}")
     public Movie getMovieInfo(@PathVariable("movieId")String movieId, HttpServletRequest request) throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         return new Movie(movieId, "Name"+movieId, "Movie " + movieId + " is a classic movie", request.getRemoteAddr());
     }
 }

@@ -8,5 +8,7 @@ import java.time.Duration;
 public class Combinator {
     UserRating userRating;
     Movie movie;
+    Movie movie2;
+    Movie movie3;
     Duration executionTime;
 }
